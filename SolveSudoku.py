@@ -37,6 +37,6 @@ def solve():
             solve()
             puzzle[y][x] = 0
         return
-  print(np.matrix(grid))
+  print(np.matrix(puzzle))
 
 solve()
