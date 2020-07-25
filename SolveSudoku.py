@@ -38,7 +38,7 @@ def solvepuzzle():
         return
   print(np.matrix(puzzle))
 
-print("Welcome to my Sudoku solving application using Python.")
+print("Welcome to a simple Sudoku solving application using Python.")
 print("When entering the current puzzle, separate each number with a comma (no spaces) and enter a 0 for each blank space.")
 user_input = input("Please enter the entire 1st row of the puzzle:")
 line0 = input_to_list(user_input)
